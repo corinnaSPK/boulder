@@ -1,0 +1,168 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+	/* --c-white: #ffffff; */
+	--c-white-soft: #f8f8f8;
+	/* --c-white-mute: #f2f2f2;  */
+
+	--c-black: #181818;
+
+	--c-accent-primary: rgb(14, 52, 2);
+	--c-accent-secondary--dark: rgb(49, 2, 67);
+	--c-accent-secondary: rgb(63, 3, 86);
+
+	--c-black-soft: #222222;
+	--c-black-mute: #282828;
+
+	/* 	--c-indigo: #2c3e50;
+
+	--c-divider-light-1: rgba(60, 60, 60, 0.29);
+	--c-divider-light-2: rgba(60, 60, 60, 0.12);
+	--c-divider-dark-1: rgba(84, 84, 84, 0.65);
+	--c-divider-dark-2: rgba(84, 84, 84, 0.48); */
+
+	/* 	--c-text-light-1: var(--c-indigo);
+	--c-text-light-2: rgba(60, 60, 60, 0.66);
+	--c-text-dark-1: var(--c-white);
+	--c-text-dark-2: rgba(235, 235, 235, 0.64); */
+
+	/* !fofamilys### */
+
+	--ff-sansserif: Arial, Helvetica, sans-serif;
+	--ff-serif: Georgia, "Times New Roman", Times, serif;
+	/* !fosizes #################################### */
+
+	--fs-head-1: clamp(2rem, 1rem + 5vw, 4rem);
+	--fs-head-2: clamp(1.85rem, 1rem + 5vw, 3rem);
+	--fs-head-3: 2.4rem;
+	--fs-head-4: 2.2rem;
+	--fs-copy: 2rem;
+	--fs-small: 1.6rem;
+}
+/* ! fontsizes */
+.fs-head-main {
+	font-size: var(--fs-head-1);
+}
+
+.fs-head-2 {
+	font-size: var(--fs-head-2);
+}
+
+.fs-head-3 {
+	font-size: var(--fs-head-3);
+}
+
+.fs-head-4 {
+	font-size: var(--fs-head-4);
+}
+
+.fs-copy {
+	font-size: var(--fs-copy);
+}
+
+.fs-small {
+	font-size: var(--fs-small);
+}
+/* !grid */
+
+.dgridcenter {
+	display: grid;
+	place-content: center;
+}
+.gridminmax {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+
+/*! abstände################################################################################ */
+.mb-5em {
+	margin-bottom: 0.5em;
+}
+
+.mb-1em {
+	margin-bottom: 01em;
+}
+
+.mb-3rem {
+	margin-bottom: 3rem;
+}
+
+.mb-5rem {
+	margin-bottom: 5rem;
+}
+
+.mb-7rem {
+	margin-bottom: 7rem;
+}
+
+.mb-10rem {
+	margin-bottom: 10rem;
+}
+.mb-20rem {
+	margin-bottom: 20rem;
+}
+
+.mt-10rem {
+	margin-top: 100px;
+}
+.mi-2rem {
+	margin-inline: 2rem;
+}
+
+.p-1-5 {
+	padding: 1.5rem;
+}
+
+.p-3 {
+	padding: 3rem;
+}
+
+.p-3-in {
+	padding-inline: 3rem;
+}
+.p-5 {
+	padding: 5rem;
+}
+
+.pb-10 {
+	padding-block: 10rem;
+}
+/* !reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	overflow-x: hidden;
+	min-height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	line-height: 1.5;
+	font-family: var(--ff-sansserif);
+	/* font-family: Georgia, 'Times New Roman', Times, serif; */
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	color: var(--c-white-soft);
+	background-color: var(--c-black);
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+button {
+	border: none;
+	font-family: inherit;
+}
+h1 {
+	font-size: var(--fs-head-1);
+}
+p {
+	font-size: var(--fs-copy);
+}

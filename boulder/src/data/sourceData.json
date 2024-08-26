@@ -1,0 +1,57 @@
+[{
+    "id": 1, 
+    "name": "Silent Feet", 
+    "description": "Versuch Fuß so präzise auf den Tritt zu setzen, dass dabei keine Geräusche zu hören sind. Schrammst du an der Wand lang oder prallt der Fuß mit Schwung auf den Tritt, ist das zu hören. Dann hast du nicht sauber und präzise getreten. Die Übung ist gut, um die Tritttechnik zu verbessern."
+}, 
+{
+    "id": 2, 
+    "name": "Keine Tritte", 
+    "description": "Versuch die glatte Wand hochzulaufen. Mach den Boulder ohne die vorgesehenen Tritte, nutz stattdessen die Wand zum Antreten."
+}, {
+    "id": 3, 
+    "name": "One Touch Only", 
+    "description": "Versuch so präzise wie möglich zu greifen und zu treten. Sobald du die Hand oder den Fuß gesetzt hast, darfst du nicht mehr nachjustieren. Versuch über Gewichtsverlagerungen eventuell ungünstige Positionen auszugleichen."
+}
+, 
+{
+    "id": 4, 
+    "name": "Roboter", 
+    "description": "Sobald du eine Hand oder einen Fuß von der Wand löst, darf nur dieses Gliedmaß bewegt werden, der Rest des Körpers ist eingefroren."
+}, 
+{
+    "id": 5, 
+    "name": "Flatterglied", 
+    "description": "Diese Übung wird viermal durchgeführt. Bei jedem Durchlauf verzichtest du darauf, ein Gliedmaß zu verwenden, nutzt also nur die drei verbliebenen. Schließt du zum Beispiel die linke Hand aus, nutzt du nur die rechte Hand und beide Füße."
+}, 
+{
+    "id": 6, 
+    "name": "Toe Hook Only", 
+    "description": "Benutze hier die Tritte nicht wie vorgesehen, sondern setze stattdessen Toe Hooks, um dich zu stabilisieren. Stehst du stabil, nutz den Tritt wie üblich. Um es leichter zu machen, kannst du Tritte aller Fraben wählen."
+}, 
+{
+    "id": 7, 
+    "name": "Heel Hook Only", 
+    "description": "Benutze hier die Tritte nicht wie vorgesehen, sondern setze stattdessen Heel Hooks, um dich zu stabilisieren. Stehst du stabil, nutz den Tritt wie üblich. Um es leichter zu machen, kannst du Tritte aller Fraben wählen."
+}, {
+    "id": 8, 
+    "name": "Fuß zur Hand", 
+    "description": "Nutze als nächsten Tritt jeweils den Griff, auf dem deine Hand liegt."
+}, {
+    "id": 9, 
+    "name": "Seilarme", 
+    "description": "Versuch dich aus den Beinen heraus in die nächste Position zu schieben, ohne über die Arme oder die Hände Zug auszuüben."
+}, {
+    "id": 10, 
+    "name": "Hover", 
+    "description": "Bevor du den nächsten Griff greifst oder den Fuß platzierst, lass deine Hand bzw. deinen Fuß kurz über Griff oder Tritt schweben, und versuch diese Postion stabil zu halten."
+}, 
+{
+    "id": 11, 
+    "name": "Füße zuerst", 
+    "description": "Versuche den Griff, den du als nächstes mit der Hand erreichen möchtest, zuerst mit dem Fuß zu erreichen. Du musst nicht darauf stehen, es reicht, ihn zu berühren."
+}, 
+{
+    "id": 12, 
+    "name": "Ohne Hände", 
+    "description": "Geh die Wand hoch, ohne deine Hände zu nutzen."
+}]
