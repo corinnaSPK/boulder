@@ -49,7 +49,7 @@ const generateDrill = () => {
 	background-image: linear-gradient(
 		to top left,
 		var(--c-black) 5%,
-		var(--c-accent-primary) 25%,
+		var(--c-accent-primary) 45%,
 		var(--c-accent-secondary)
 	);
 	min-height: 50vh;
@@ -72,6 +72,7 @@ button {
 	display: block;
 	justify-self: center;
 	background-color: var(--c-accent-secondary);
+	border: 1px solid rgba(255, 255, 255, 0.449);
 	color: var(--c-white);
 	padding: 1em 2em;
 	font-size: 2rem;

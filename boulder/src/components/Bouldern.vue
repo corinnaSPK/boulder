@@ -13,7 +13,7 @@
 				Bouldern ist eine spezielle Form des Kletterns. Es wird kein Seil und
 				keine andere Absicherung genutzt. Man klettert bis zu einer Absprunghöhe
 				von 4 Metern. Bouldern kann man im Freien an Felswändern und Blöcken, in
-				den letzten Jahren sin dauch zahlreiche Indoorhallen mit künstlichen
+				den letzten Jahren sind auch zahlreiche Indoorhallen mit künstlichen
 				Boulderwänden entstanden.
 			</p>
 		</div>
