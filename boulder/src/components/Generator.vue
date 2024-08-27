@@ -73,7 +73,7 @@ button {
 	justify-self: center;
 	background-color: var(--c-accent-secondary);
 	color: var(--c-white);
-	border: 1px solid rgba(255, 255, 255, 0.2);
+	/* border: 1px solid rgba(255, 255, 255, 0.2); */
 	padding: 1em 2em;
 	font-size: 2rem;
 	transition: all 3ms ease;
