@@ -11,7 +11,10 @@
 				<h3 class="fs-head-3 mb-5em">{{ currentDrill.name }}</h3>
 				<p>{{ currentDrill.description }}</p>
 			</div>
-			<div><p class="arrow">&darr;</p></div>
+			<div class="arrow">
+				<p>Scroll</p>
+				<p>&darr;</p>
+			</div>
 		</div>
 	</div>
 </template>
@@ -45,8 +48,9 @@ const generateDrill = () => {
 .generator {
 	background-image: linear-gradient(
 		to top left,
-		var(--c-black),
-		var(--c-accent-primary)
+		var(--c-black) 5%,
+		var(--c-accent-primary) 25%,
+		var(--c-accent-secondary)
 	);
 	min-height: 50vh;
 	text-align: center;
@@ -55,7 +59,7 @@ const generateDrill = () => {
 }
 h1 {
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 }
 .result__wrapper {
 	margin: 3rem;
@@ -69,6 +73,7 @@ button {
 	justify-self: center;
 	background-color: var(--c-accent-secondary);
 	color: var(--c-white);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	padding: 1em 2em;
 	font-size: 2rem;
 	transition: all 3ms ease;

@@ -1,6 +1,6 @@
 <template>
 	<div class="drills">
-		<h2 class="fs-head-2">All Drills</h2>
+		<h2 class="fs-head-2">Alle Übungen</h2>
 
 		<div class="drills__wrapper gridminmax">
 			<SingleDrill

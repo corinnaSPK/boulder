@@ -8,20 +8,13 @@
 			></path>
 		</svg>
 		<div class="content">
+			<h2 class="fs-head-2 uppercase mb-3rem">Was ist eigentlich Bouldern?</h2>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-				consectetur maxime excepturi sed tempore quod quaerat placeat neque
-				fugiat. Ipsam sunt vel neque beatae aliquam, ipsum deleniti architecto
-				pariatur, quaerat, is eius voluptatibus, quia mollitia sunt beatae
-				recusandae fuga sequi dolorum. Possimus quia autem perferendis id. Qui
-				iste, similique, nihil neque ipsam perferendis facere autem sint illo ea
-				aut, explicabo nisi sunt sapiente delectus nobis unde recusandae! Sint
-				ut soluta distinctio praesentium animi modi architecto, impedit ratione
-				dolorem culpa amet est sit alias explicabo repellat deserunt laudantium
-				ea debitis. Eum aliquid libero commodi enim quos autem consequatur
-				cupiditate dolor quam facere, iusto sunt maxime maiores consequuntur
-				repellendus? Numquam veritatis cupiditate mollitia, doloribus libero
-				maxime iusto. Quos!
+				Bouldern ist eine spezielle Form des Kletterns. Es wird kein Seil und
+				keine andere Absicherung genutzt. Man klettert bis zu einer Absprunghöhe
+				von 4 Metern. Bouldern kann man im Freien an Felswändern und Blöcken, in
+				den letzten Jahren sin dauch zahlreiche Indoorhallen mit künstlichen
+				Boulderwänden entstanden.
 			</p>
 		</div>
 	</div>
@@ -34,12 +27,11 @@ export default {};
 <style lang="css" scoped>
 .bouldern {
 	background-color: var(--c-accent-primary);
-	/* width: 100%; */
 }
 .content {
 	max-width: 800px;
 	margin-inline: auto;
-	/* width: 600px; */
-	padding-inline: 5rem;
+	/* padding-inline: 5rem; */
+	padding: 5rem;
 }
 </style>

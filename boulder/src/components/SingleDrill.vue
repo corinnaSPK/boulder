@@ -25,6 +25,20 @@ const { drill } = defineProps(["drill"]);
 }
 h3 {
 	font-family: monospace;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	position: relative;
+}
+h3::after {
+	content: "";
+	height: 2px;
+	width: 100%;
+	/* background-color: var(--c-accent-primary); */
+	background-color: var(--c-accent-primary);
+	position: absolute;
+	bottom: 0;
+	left: 0%;
+	z-index: 2;
 }
 p {
 	max-width: 60ch;

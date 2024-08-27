@@ -1,12 +1,12 @@
 [{
     "id": 1, 
     "name": "Silent Feet", 
-    "description": "Versuch Fuß so präzise auf den Tritt zu setzen, dass dabei keine Geräusche zu hören sind. Schrammst du an der Wand lang oder prallt der Fuß mit Schwung auf den Tritt, ist das zu hören. Dann hast du nicht sauber und präzise getreten. Die Übung ist gut, um die Tritttechnik zu verbessern."
+    "description": "Bei dieser Übung geht es darum, möglichts geräuchlos die Füße zu platzieren. Versuch den Fuß so präzise auf den Tritt zu setzen, dass dabei keine Geräusche zu hören sind."
 }, 
 {
     "id": 2, 
     "name": "Keine Tritte", 
-    "description": "Versuch die glatte Wand hochzulaufen. Mach den Boulder ohne die vorgesehenen Tritte, nutz stattdessen die Wand zum Antreten."
+    "description": "Klettere die Route ohne die vorgesehenen Tritte, nutz stattdessen die Wand zum Antreten. Idealerweise machst du das an einer Wand mit einer rutschfesten Beschichtung."
 }, {
     "id": 3, 
     "name": "One Touch Only", 
@@ -16,7 +16,7 @@
 {
     "id": 4, 
     "name": "Roboter", 
-    "description": "Sobald du eine Hand oder einen Fuß von der Wand löst, darf nur dieses Gliedmaß bewegt werden, der Rest des Körpers ist eingefroren."
+    "description": "Sobald du eine Hand oder einen Fuß von der Wand löst, darf nur dieses Gliedmaß bewegt werden, der Rest des Körpers ist steif, bis die Hand oder der Fuß den nächsten Griff oder Tritt erreicht."
 }, 
 {
     "id": 5, 
@@ -26,12 +26,13 @@
 {
     "id": 6, 
     "name": "Toe Hook Only", 
-    "description": "Benutze hier die Tritte nicht wie vorgesehen, sondern setze stattdessen Toe Hooks, um dich zu stabilisieren. Stehst du stabil, nutz den Tritt wie üblich. Um es leichter zu machen, kannst du Tritte aller Fraben wählen."
+    "description": "Bei dieser Übung zählen alle Farben für die Füße. Benutze hier die Tritte nicht wie vorgesehen, sondern setze stattdessen Toe Hooks. Wenn du mit der rechten Hand weitergreifen willst, setz mit dem rechten Fuß einen Toe Hook. Hast du weitergegriffen, stell den Fuß stabil auf einem Tritt ab. Nun setzt du mit links einen Hook und löst die linke Hand zum Weitergreifen."
 }, 
 {
     "id": 7, 
     "name": "Heel Hook Only", 
-    "description": "Benutze hier die Tritte nicht wie vorgesehen, sondern setze stattdessen Heel Hooks, um dich zu stabilisieren. Stehst du stabil, nutz den Tritt wie üblich. Um es leichter zu machen, kannst du Tritte aller Fraben wählen."
+    "description": "Hier zählen alle Farben für die Füße. Benutze hier die Tritte nicht wie vorgesehen, sondern setze stattdessen Heel Hooks. Wenn du mit der rechten Hand weitergreifen willst, setz mit dem rechten Fuß einen Hook. Hast du weitergegriffen, stell den Fuß stabil auf einem Tritt ab. Nun setzt du mit links einen Hook und löst die linke Hand zum Weitergreifen."
+
 }, {
     "id": 8, 
     "name": "Fuß zur Hand", 
