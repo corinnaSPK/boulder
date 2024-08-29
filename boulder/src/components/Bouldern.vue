@@ -31,7 +31,16 @@ export default {};
 .content {
 	max-width: 800px;
 	margin-inline: auto;
-	/* padding-inline: 5rem; */
+	padding-inline: 1rem;
 	padding: 5rem;
+}
+p {
+	/* max-width: 50ch; */
+	color: var(--c-white-soft);
+}
+@media (min-width: 400px) {
+	.content {
+		padding-inline: 5rem;
+	}
 }
 </style>

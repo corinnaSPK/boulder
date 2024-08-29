@@ -6,7 +6,8 @@
 
 	--c-black: #181818;
 
-	--c-accent-primary: rgb(14, 52, 2);
+	/* --c-accent-primary: rgb(14, 52, 2); */
+	--c-accent-primary: hsl(106, 83%, 11%);
 	--c-accent-secondary--dark: rgb(49, 2, 67);
 	--c-accent-secondary: rgb(63, 3, 86);
 
@@ -162,6 +163,15 @@ button {
 }
 h1 {
 	font-size: var(--fs-head-1);
+}
+h2 {
+	font-size: var(--fs-head-2);
+}
+h3 {
+	font-size: var(--fs-head-3);
+}
+h4 {
+	font-size: var(--fs-head-4);
 }
 p {
 	font-size: var(--fs-copy);

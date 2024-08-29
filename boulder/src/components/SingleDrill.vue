@@ -15,12 +15,13 @@ const { drill } = defineProps(["drill"]);
 
 <style lang="css" scoped>
 .drill {
-	border-left: 1px solid var(--c-accent-secondary);
-	border-bottom: 1px solid var(--c-accent-secondary);
+	/* border-left: 1px solid var(--c-accent-secondary); */
+	border: 1px solid var(--c-accent-secondary);
+	border-radius: 15px;
 	padding: 3rem;
 	justify-self: center;
 	/* box-shadow: 3px 3px 50px var(--c-accent-secondary--dark); */
-	/* background-color: var(--c-black-soft); */
+	background-color: var(--c-black-mute);
 	width: 300px;
 }
 h3 {
@@ -37,5 +38,6 @@ h3 {
 
 p {
 	max-width: 60ch;
+	color: var(--c-white-soft);
 }
 </style>

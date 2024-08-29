@@ -30,7 +30,7 @@ console.log(sourceData);
 .drills__wrapper {
 	place-content: center;
 	gap: 5rem;
-	padding-inline: 5rem;
+	padding-inline: 1rem;
 }
 h2 {
 	position: relative;
@@ -41,7 +41,6 @@ h2::after {
 	display: block;
 	width: 30%;
 	height: 30px;
-	/* background-color: var(--c-accent-primary); */
 	background-image: linear-gradient(
 		to bottom left,
 		var(--c-accent-secondary--dark),
@@ -52,5 +51,10 @@ h2::after {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: -1;
+}
+@media (min-width: 400px) {
+	.drills__wrapper {
+		padding-inline: 5rem;
+	}
 }
 </style>
