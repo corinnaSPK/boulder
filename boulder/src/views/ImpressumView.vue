@@ -7,7 +7,7 @@
 			59581 Warstein
 		</p>
 		<h2>Kontakt</h2>
-		<p>E-Mail: corinnab1004@gmx.de</p>
+		<p>E-Mail: corinna.berrang@web.de</p>
 		<p>
 			Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
 		</p>
