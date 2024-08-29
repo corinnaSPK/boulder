@@ -30,7 +30,7 @@ console.log(sourceData);
 .drills__wrapper {
 	place-content: center;
 	gap: 5rem;
-	/* padding-inline: 1rem; */
+	padding-inline: 1rem;
 }
 h2 {
 	position: relative;
@@ -54,7 +54,7 @@ h2::after {
 }
 @media (min-width: 400px) {
 	.drills__wrapper {
-		/* padding-inline: 5rem; */
+		padding-inline: 5rem;
 	}
 }
 </style>

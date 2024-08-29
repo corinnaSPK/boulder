@@ -1,9 +1,9 @@
 <template>
 	<main>
 		<Intro></Intro>
-		<!-- <Generator></Generator> -->
-		<!-- <AllDrills></AllDrills> -->
-		<!-- <Bouldern></Bouldern> -->
+		<Generator></Generator>
+		<AllDrills></AllDrills>
+		<Bouldern></Bouldern>
 	</main>
 </template>
 

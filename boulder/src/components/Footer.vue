@@ -1,9 +1,9 @@
 <template>
-	<!-- 	<div class="footer">
+	<div class="footer">
 		<RouterLink to="/datenschutz">Datenschutz</RouterLink>
 		<RouterLink to="/impressum">Impressum</RouterLink>
 		<RouterLink to="/">Start</RouterLink>
-	</div> -->
+	</div>
 </template>
 
 <script setup>

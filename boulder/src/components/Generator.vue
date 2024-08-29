@@ -66,7 +66,7 @@ h1 {
 }
 
 .result__wrapper p {
-	max-width: 50ch;
+	/* max-width: 50ch; */
 	color: var(--c-white-soft);
 }
 button {

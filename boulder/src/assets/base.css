@@ -139,10 +139,9 @@ html {
 	font-size: 62.5%;
 }
 body {
-	/* overflow-x: hidden; */
-	/* min-height: 100vh; */
-	/* width: 100vw;
-	max-width: 100%; */
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto;
 	line-height: 1.5;
 	color: var(--c-white-soft);
 	background-color: var(--c-black);

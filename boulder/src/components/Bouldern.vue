@@ -27,6 +27,7 @@ export default {};
 <style lang="css" scoped>
 .bouldern {
 	background-color: var(--c-accent-primary);
+	margin-top: -10px;
 }
 .content {
 	max-width: 800px;

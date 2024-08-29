@@ -19,7 +19,7 @@
 				Du willst mehr <span>Abwechslung</span> bei deinen Boulder-Sessions?
 			</h1>
 			<h3 class="fs-head-3 mb-7rem">
-				Dann lass dich mit unserem Generator inspirieren zu neuen Übungen
+				Dann lass dich mit neuen Übungen für dein Training überraschen
 			</h3>
 			<div class="arrow">
 				<p>Scroll</p>
@@ -39,7 +39,7 @@
 		var(--c-accent-primary) 45%,
 		var(--c-accent-secondary)
 	);
-	/* min-height: 50vh; */
+	min-height: 100dvh;
 	text-align: center;
 	padding-block: 15rem;
 }
