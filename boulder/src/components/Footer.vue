@@ -14,5 +14,6 @@ import { RouterLink } from "vue-router";
 .footer {
 	background-color: var(--c-black);
 	padding: 4rem 2rem;
+	font-size: 1.6rem;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
 	<div class="generator mb-10rem">
-		<h1 class="fs-head-1 mb-1em">The Generator</h1>
+		<h2 class="fs-head-2 mb-5rem">The Generator</h2>
 		<!-- <div class="left"></div> -->
 		<div class="right dgridcenter">
 			<!-- button to generate -->
@@ -53,10 +53,10 @@ const generateDrill = () => {
 	min-height: 50vh;
 	text-align: center;
 	padding-block: 15rem;
-	border-bottom: 3px solid var(--c-black-mute);
+	border-bottom: 1px solid var(--c-black-mute);
 	/* border-bottom: 3px solid red; */
 }
-h1 {
+h2 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	text-align: center;
@@ -66,7 +66,7 @@ h1 {
 }
 
 .result__wrapper p {
-	/* max-width: 50ch; */
+	max-width: 50ch;
 	color: var(--c-white-soft);
 }
 button {

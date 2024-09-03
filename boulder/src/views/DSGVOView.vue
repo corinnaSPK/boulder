@@ -68,7 +68,6 @@
 			folgenden Datenschutzerkl&auml;rung.
 		</p>
 		<h2>2. Hosting</h2>
-		<p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
 		<h3>Externes Hosting</h3>
 		<p>
 			Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf
@@ -78,6 +77,8 @@
 			Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die &uuml;ber
 			eine Website generiert werden, handeln.
 		</p>
+		<p>Wir setzen folgende(n) Hoster ein:</p>
+		<p>Netlify, Inc., 2325 3rd St #215, San Francisco, USA</p>
 		<p>
 			Das externe Hosting erfolgt zum Zwecke der Vertragserf&uuml;llung
 			gegen&uuml;ber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1
@@ -96,8 +97,23 @@
 			dies zur Erf&uuml;llung seiner Leistungspflichten erforderlich ist und
 			unsere Weisungen in Bezug auf diese Daten befolgen.
 		</p>
-		<p>Wir setzen folgende(n) Hoster ein:</p>
-		<p>Netlify, Inc., 2325 3rd St #215, San Francisco, USA</p>
+		<p>
+			Dieser speichert dabei einige Informationen über die Verbindung in einer
+			sogenannten Logdatei. Wir haben keinen Zugriff auf diese Logdateien. Mehr
+			Informationen dazu, wie Netlify Ihre Daten verarbeitet, können Sie der
+			<a href="https://www.netlify.com/privacy/"
+				>Datenschutzerklärung von Netlify</a
+			>
+			entnehmen. Netlify erhebt folgende personenbezogene Daten, die technisch
+			erforderlich sind, um Ihnen die Anzeige der Webseite zu ermöglichen und
+			die Stabilität und Sicherheit zu gewährleisten: IP-Adresse, Datum und
+			Uhrzeit der Anfrage, Übertragene Datenmenge, Zugriffsstatus (HTTP-Status)
+			und Websites, von denen das System des Nutzers auf unsere Internetseite
+			gelangt (Referrer URL). Diese Daten werden von Netlify für 30 Tage
+			gespeichert. Weitere Details dazu finden Sie der
+			<a href="https://www.netlify.com/gdpr-ccpa">Verpflichtung von Netlify </a
+			>zum Schutz Ihrer Daten.
+		</p>
 		<h4>Auftragsverarbeitung</h4>
 		<p>
 			Wir haben einen Vertrag &uuml;ber Auftragsverarbeitung (AVV) zur Nutzung

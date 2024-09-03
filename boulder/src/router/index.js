@@ -27,7 +27,21 @@ const router = createRouter({
     
       component: () => import('../views/ImpressumView.vue')
     }
-  ]
+  ], 
+  scrollBehavior(to, from, savedPosition) {
+  if (to.hash) {
+    // Required because our <RouterView> is wrapped in a <Transition>
+    // So elements are mounted after a delay
+    console.log(to.hash);
+    tryScrollToAnchor(to.hash, 1000, 100);
+  }
+  /*  else if (savedPosition) {
+    return savedPosition;
+  } */
+   else {
+    return { top:0 };
+  }
+}
 })
 
 export default router

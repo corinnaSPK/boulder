@@ -36,7 +36,7 @@
 }, {
     "id": 8, 
     "name": "Fuß zur Hand", 
-    "description": "Nutze als nächsten Tritt jeweils den Griff, auf dem deine Hand liegt."
+    "description": "Nutze als nächsten Tritt jeweils den Griff, auf dem deine Hand liegt. Greif am besten hierfür nur auf Hüfthöhe. So verbesserst du deine Beweglichkeit."
 }, {
     "id": 9, 
     "name": "Seilarme", 
@@ -54,5 +54,5 @@
 {
     "id": 12, 
     "name": "Ohne Hände", 
-    "description": "Geh die Wand hoch, ohne deine Hände zu nutzen."
+    "description": "Bei dieser Übung nutzt du Tritte aller Farben. Griffe jedoch nutzt du gar nicht. Versuch so weit wie möglich freihändig zu klettern. Stabilisiere dich stattdessen mit Ausbalancieren und präzisen Tritten."
 }]

@@ -2,7 +2,7 @@
 	<div class="drills">
 		<h2 class="fs-head-2">Alle Übungen</h2>
 
-		<div class="drills__wrapper gridminmax">
+		<div class="drills__wrapper gridminmax" ref="drillsWrapper">
 			<SingleDrill
 				v-for="drill in sourceData"
 				:key="drill.id"
@@ -13,10 +13,17 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import SingleDrill from "../components/SingleDrill.vue";
 import drillData from "../data/sourceData.json";
+
 const sourceData = drillData;
-console.log(sourceData);
+
+import { useFadeFromBottomChildren } from "@/composables/fadeFromBottonChildren.js";
+const drillsWrapper = ref(null);
+onMounted(() => {
+	useFadeFromBottomChildren(drillsWrapper.value);
+});
 </script>
 
 <style lang="css" scoped>
