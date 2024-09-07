@@ -1,13 +1,18 @@
 <template>
 	<div class="intro">
+		<div class="intro__bg">
+			<img src="../assets/climb-3040060_1280.jpg" alt="climbing hold" />
+		</div>
 		<div class="intro__wrapper" ref="introWrapper">
-			<h1 class="fs-head-1 mb-3rem" ref="mainHead">
-				Du willst mehr <span>Abwechslung</span> bei deinen Boulder-Sessions?
-			</h1>
-			<h3 class="fs-head-3 mb-7rem" ref="subHead">
-				Dann lass dich mit neuen Übungen für dein Training überraschen
-			</h3>
-			<div class="arrow" ref="scrollHint">
+			<div class="intro__content">
+				<h1 class="fs-head-1 mb-3rem" ref="mainHead">
+					Du willst mehr <span>Abwechslung</span> bei deinen Boulder-Sessions?
+				</h1>
+				<h3 class="fs-head-3 mb-3rem" ref="subHead">
+					Dann lass dich mit neuen Übungen für dein Training überraschen
+				</h3>
+			</div>
+			<div class="arrow mb-3rem" ref="scrollHint">
 				<p>Scroll</p>
 				<p>&darr;</p>
 			</div>
@@ -61,17 +66,50 @@ onMounted(() => {
 		var(--c-accent-primary) 45%,
 		var(--c-accent-secondary)
 	);
-	min-height: 100dvh;
+	/* height: 90dvh; */
 	text-align: center;
-	padding-block: 15rem;
+	/* padding-block: 15rem; */
 	display: grid;
-	place-content: center;
+	/* place-content: center; */
+	grid-template-areas: "stack";
+	/* align-content: stretch; */
+	overflow: hidden;
+	width: 100%;
+	height: 90vh;
+	/* max-height: 95vh; */
+	/* max-height: 500px; */
+}
+.intro__bg {
+	width: 100%;
+	/* width: 300px; */
+	/* height: 300px; */
+	height: 90vh;
+	/* border: 4px solid green; */
+	/* overflow: hidden; */
+}
+img {
+}
+.intro > * {
+	grid-area: stack;
+}
+.intro__content {
+	/* padding-block: 10vh; */
+	max-width: 800px;
+	margin-inline: auto;
+
+	padding-block: 10vh; /* border: 1px solid red; */
+	padding-inline: 5vw;
+	/* display: grid;
+	align-content: space-between;
+	gap: 5rem; */
 }
 .intro__wrapper {
-	padding-inline: 4rem;
-	max-width: 600px;
-	margin-inline: auto;
-	max-width: 600px;
+	background-image: linear-gradient(
+		to top left,
+		rgba(24, 24, 24, 0.9) 5%,
+		hsla(106, 82%, 11%, 0.9) 45%,
+		rgba(49, 2, 67, 0.9)
+	);
 }
 span {
 	background-color: var(--c-accent-secondary);

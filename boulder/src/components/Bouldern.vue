@@ -38,6 +38,7 @@ export default {};
 p {
 	/* max-width: 50ch; */
 	color: var(--c-white-soft);
+	padding-bottom: 7rem;
 }
 @media (min-width: 400px) {
 	.content {

@@ -11,6 +11,15 @@
 		<p>
 			Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
 		</p>
+
+		<p>
+			Quelle Bild: Image by
+			<a
+				href="https://pixabay.com/photos/climb-climbing-hall-bouldering-3040060/"
+				>Diana</a
+			>
+		</p>
+		from Pixabay p>
 	</div>
 </template>
 
