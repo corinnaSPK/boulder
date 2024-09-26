@@ -6,8 +6,9 @@
 	/* padding: 2rem; */
 	font-weight: normal;
 	font-family: monospace;
-	/* display: grid;
-	grid-template-rows: auto 1fr auto; */
+
+	display: flex;
+	flex-direction: column;
 }
 
 a {

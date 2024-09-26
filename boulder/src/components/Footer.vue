@@ -15,6 +15,8 @@ import { RouterLink } from "vue-router";
 	background-color: var(--c-black);
 	padding: 4rem 2rem;
 	font-size: 1.6rem;
+	margin-top: auto;
+	border-top: 1px solid var(--c-accent-secondary--dark);
 }
 a {
 	padding-inline: 1rem;
