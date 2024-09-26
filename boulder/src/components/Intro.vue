@@ -13,7 +13,7 @@
 				</h3>
 			</div>
 			<div class="arrow mb-3rem" ref="scrollHint">
-				<p>Scroll</p>
+				<!-- <p>Scroll</p> -->
 				<p>&darr;</p>
 			</div>
 		</div>
@@ -60,12 +60,12 @@ onMounted(() => {
 
 <style lang="css" scoped>
 .intro {
-	background-image: linear-gradient(
+	/* 	background-image: linear-gradient(
 		to top left,
 		var(--c-black) 5%,
 		var(--c-accent-primary) 45%,
 		var(--c-accent-secondary)
-	);
+	); */
 	/* height: 90dvh; */
 	text-align: center;
 	/* padding-block: 15rem; */
@@ -87,21 +87,9 @@ onMounted(() => {
 	/* border: 4px solid green; */
 	/* overflow: hidden; */
 }
-img {
-}
+
 .intro > * {
 	grid-area: stack;
-}
-.intro__content {
-	/* padding-block: 10vh; */
-	max-width: 800px;
-	margin-inline: auto;
-
-	padding-block: 10vh; /* border: 1px solid red; */
-	padding-inline: 5vw;
-	/* display: grid;
-	align-content: space-between;
-	gap: 5rem; */
 }
 .intro__wrapper {
 	background-image: linear-gradient(
@@ -110,11 +98,25 @@ img {
 		hsla(106, 82%, 11%, 0.9) 45%,
 		rgba(49, 2, 67, 0.9)
 	);
+	display: grid;
+	/* align-content: space-between; */
+	place-content: center;
 }
+.intro__content {
+	/* padding-block: 10vh; */
+	max-width: 800px;
+	margin-inline: auto;
+
+	padding-block: 10vh;
+	padding-inline: 5vw;
+}
+
 span {
-	background-color: var(--c-accent-secondary);
+	background-color: var(--c-accent-secondary--dark);
+	/* border: 10px solid var(--c-accent-secondary--dark); */
 	padding-inline: 1em;
 }
+
 h1 {
 	text-transform: uppercase;
 	letter-spacing: 5px;

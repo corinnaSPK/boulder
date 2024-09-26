@@ -16,12 +16,12 @@
 {
     "id": 4, 
     "name": "Roboter", 
-    "description": "Sobald du eine Hand oder einen Fuß von der Wand löst, darf nur dieses Gliedmaß bewegt werden, der Rest des Körpers ist steif, bis die Hand oder der Fuß den nächsten Griff oder Tritt erreicht."
+    "description": "Sobald du eine Hand oder einen Fuß von der Wand löst, darf nur dieses Körperteil bewegt werden, der Rest des Körpers ist steif, bis die Hand oder der Fuß den nächsten Griff oder Tritt erreicht."
 }, 
 {
     "id": 5, 
-    "name": "Flatterglied", 
-    "description": "Diese Übung wird viermal durchgeführt. Bei jedem Durchlauf verzichtest du darauf, ein Gliedmaß zu verwenden, nutzt also nur die drei verbliebenen. Schließt du zum Beispiel die linke Hand aus, nutzt du nur die rechte Hand und beide Füße."
+    "name": "Let’s Pogo", 
+    "description": "Beim Pogo schwingst du einen Arm oder ein Bein vor und zurück und generierst damit Schwung, der dich zum nächsten Griff/Tritt bringt. Mach diese Übung viermal, bei jedem Durchlauf nutzt du ein anderes Körperteil, um Schwung zu holen. "
 }, 
 {
     "id": 6, 

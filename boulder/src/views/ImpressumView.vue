@@ -18,8 +18,9 @@
 				href="https://pixabay.com/photos/climb-climbing-hall-bouldering-3040060/"
 				>Diana</a
 			>
+
+			from Pixabay
 		</p>
-		from Pixabay p>
 	</div>
 </template>
 
@@ -29,5 +30,8 @@
 .impressum {
 	padding: 3rem;
 	min-height: 70vh;
+}
+.impressum a {
+	margin: 0;
 }
 </style>

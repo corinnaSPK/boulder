@@ -26,7 +26,12 @@ export default {};
 
 <style lang="css" scoped>
 .bouldern {
-	background-color: var(--c-accent-primary);
+	/* background-color: var(--c-accent-primary); */
+	background-image: linear-gradient(
+		to bottom,
+		var(--c-accent-primary) 50%,
+		var(--c-accent-secondary--dark)
+	);
 	margin-top: -10px;
 }
 .content {
