@@ -432,10 +432,12 @@
 				Endger&auml;t des Nutzers (z.&nbsp;B. Device-Fingerprinting) im Sinne
 				des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
 			</p>
+
 			<p>
 				Wenn Ihr Browser Google Fonts nicht unterst&uuml;tzt, wird eine
 				Standardschrift von Ihrem Computer genutzt.
 			</p>
+
 			<p>
 				Weitere Informationen zu Google Fonts finden Sie unter
 				<a
@@ -446,6 +448,7 @@ noreferrer"
 					>https://developers.google.com/fonts/faq</a
 				>
 				und in der Datenschutzerkl&auml;rung von Google:
+
 				<a
 					href="https://policies.google.com/privacy?hl=de"
 					target="_blank"
@@ -627,5 +630,8 @@ noreferrer"
 }
 li {
 	font-size: 1.6rem;
+}
+a {
+	word-break: break-all;
 }
 </style>
