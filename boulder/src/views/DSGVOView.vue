@@ -626,7 +626,10 @@ noreferrer"
 
 <style lang="css" scoped>
 .datenschutz {
+	text-align: left;
 	padding: 3rem;
+}
+h1 {
 	word-break: break-all;
 }
 li {
