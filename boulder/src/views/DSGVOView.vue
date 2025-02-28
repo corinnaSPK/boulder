@@ -631,6 +631,19 @@ noreferrer"
 }
 h1 {
 	word-break: break-all;
+	font-size: clamp(16px, 26px, 40px);
+}
+h2 {
+	font-size: clamp(16px, 22px, 30px);
+}
+h3 {
+	font-size: clamp(16px, 18px, 20px);
+}
+h4 {
+	font-size: clamp(16px, 18px, 20px);
+}
+p {
+	font-size: 14px;
 }
 li {
 	font-size: 1.6rem;

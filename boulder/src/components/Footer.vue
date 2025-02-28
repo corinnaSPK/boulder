@@ -17,8 +17,13 @@ import { RouterLink } from "vue-router";
 	font-size: 1.6rem;
 	margin-top: auto;
 	border-top: 1px solid var(--c-accent-secondary--dark);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 a {
 	padding-inline: 1rem;
+	background-color: transparent;
+	margin-left: 0;
 }
 </style>
