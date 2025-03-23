@@ -2,7 +2,7 @@
 	<div class="drills">
 		<h2 class="fs-head-2">Alle Übungen</h2>
 
-		<div class="drills__wrapper gridminmax" ref="drillsWrapper">
+		<div class="drills__wrapper" ref="drillsWrapper">
 			<SingleDrill
 				v-for="drill in sourceData"
 				:key="drill.id"
@@ -30,21 +30,25 @@ onMounted(() => {
 .drills {
 	text-align: center;
 
-	padding-block: 5rem;
+	padding-block: 15rem;
 	max-width: 1200px;
 	margin-inline: auto;
 }
 .drills__wrapper {
-	place-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* place-content: center; */
 	gap: 5rem;
 	padding-inline: 1rem;
 }
 h2 {
 	position: relative;
 	margin-bottom: 8rem;
+	font-family: fantasy;
 }
 h2::after {
-	content: "";
+	/* content: ""; */
 	display: block;
 	width: 30%;
 	height: 30px;

@@ -53,6 +53,10 @@
 }, 
 {
     "id": 12, 
-    "name": "Ohne Hände", 
+    "name": "Hands off", 
     "description": "Bei dieser Übung nutzt du Tritte aller Farben. Griffe jedoch nutzt du gar nicht. Versuch so weit wie möglich freihändig zu klettern. Stabilisiere dich stattdessen mit Ausbalancieren und präzisen Tritten."
+}, {
+    "id": 13, 
+    "name": "Daumen weg", 
+    "description": "Hier tust du so, als hättest du keine Daumen. Versuch dich nur mit den restlichen Fingern festzuhalten. Du kannst dich nicht mehr so einfach an die Wand heranziehen und musst deine Füße besser einsetzen.."
 }]

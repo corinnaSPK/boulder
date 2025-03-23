@@ -25,5 +25,6 @@ a {
 	padding-inline: 1rem;
 	background-color: transparent;
 	margin-left: 0;
+	color: var(--c-white-soft);
 }
 </style>

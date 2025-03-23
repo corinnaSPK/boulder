@@ -1,7 +1,15 @@
 <template>
 	<div class="generator mb-10rem">
-		<h2 class="fs-head-2 mb-3rem">The Generator</h2>
+		<!-- <h2 class="fs-head-2 mb-3rem">The Generator</h2> -->
 		<!-- <div class="left"></div> -->
+		<div class="intro__content">
+			<h2 class="fs-head-2 mb-3rem" ref="mainHead">
+				Du willst mehr <span>Abwechslung</span> bei deinen Boulder-Sessions?
+			</h2>
+			<p class="fs-head-3 mb-3rem" ref="subHead">
+				Dann lass dich mit neuen Übungen für dein Training überraschen
+			</p>
+		</div>
 		<div class="right dgridcenter">
 			<!-- button to generate -->
 			<button @click="generateDrill">Start</button>
@@ -52,9 +60,8 @@ const generateDrill = () => {
 	gap: 5rem;
 	min-height: 50vh;
 	text-align: center;
-	padding-block: 15rem;
-	border-bottom: 1px solid var(--c-black-mute);
-	/* border-bottom: 3px solid red; */
+	padding-top: 0;
+	padding-inline: 2rem;
 }
 h2 {
 	/* text-transform: uppercase; */
@@ -62,8 +69,12 @@ h2 {
 	text-align: center;
 	position: relative;
 }
+h3 {
+	font-family: fantasy;
+	letter-spacing: 1px;
+}
 h2::after {
-	content: "";
+	/* content: ""; */
 	display: block;
 	width: 30%;
 	height: 30px;
@@ -84,21 +95,24 @@ h2::after {
 
 .result__wrapper p {
 	max-width: 50ch;
-	color: var(--c-white-soft);
+	/* color: var(--c-white-soft); */
 }
 button {
 	display: block;
 	justify-self: center;
 	/* background-color: var(--c-accent-secondary); */
-	background-image: linear-gradient(
+	/* background-image: linear-gradient(
 		to bottom left,
 		var(--c-accent-secondary--dark),
 		var(--c-accent-secondary)
-	);
+	); */
 	/* border: 1px solid rgba(255, 255, 255, 0.449); */
+	background-color: var(--c-accent-secondary);
+	border: 1px solid var(--c-black-mute);
 	color: var(--c-white);
+	color: var(--c-white-soft);
 	padding: 1em 2em;
-	border-radius: 100px;
+	/* border-radius: 100px; */
 	font-size: 2rem;
 	transition: all 3ms ease;
 	text-transform: uppercase;
@@ -106,6 +120,8 @@ button {
 	font-family: monospace;
 	margin-block: 5rem;
 	transition: all 0.3s ease;
+	width: 70%;
+	font-weight: bolder;
 }
 
 button:hover {
