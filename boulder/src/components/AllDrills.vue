@@ -45,7 +45,9 @@ onMounted(() => {
 h2 {
 	position: relative;
 	margin-bottom: 8rem;
-	font-family: fantasy;
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	font-size: var(--fs-head-2);
 }
 h2::after {
 	/* content: ""; */

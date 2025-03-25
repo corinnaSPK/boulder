@@ -21,8 +21,8 @@ const { drill } = defineProps(["drill"]);
 	width: 300px;
 }
 h3 {
-	font-family: fantasy;
-	font-weight: 300;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
 }
 
 p {

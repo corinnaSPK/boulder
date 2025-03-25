@@ -49,8 +49,9 @@ const tricks = [
 	padding-block: 15rem;
 }
 h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
 	font-size: var(--fs-head-2);
-	font-family: fantasy;
 }
 span {
 	font-size: 1.8rem;

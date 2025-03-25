@@ -70,7 +70,8 @@ h2 {
 	position: relative;
 }
 h3 {
-	font-family: fantasy;
+	font-family: "Poppins", sans-serif;
+	font-size: var(--fs-head-2);
 	letter-spacing: 1px;
 }
 h2::after {
