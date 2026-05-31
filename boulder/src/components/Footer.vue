@@ -2,8 +2,7 @@
 	<div class="footer">
 		<RouterLink to="/">Start</RouterLink>
 		<RouterLink to="/datenschutz">Datenschutz</RouterLink>
-		<p>testtext</p>
-		<!-- <RouterLink to="/impressum">Impressum</RouterLink> -->
+		<RouterLink to="/impressum">Impressum</RouterLink>
 	</div>
 </template>
 
