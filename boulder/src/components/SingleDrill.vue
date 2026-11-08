@@ -15,11 +15,12 @@ const { drill } = defineProps(["drill"]);
 	/* border: 1px solid var(--c-accent-secondary); */
 	/* border: 1px solid var(--c-black); */
 	border-radius: 15px;
-	padding: 3rem;
+	padding: 4rem;
 	justify-self: center;
 
 	width: 300px;
 	box-shadow: 10px 10px 20px -5px var(--c-black);
+	margin: 50px;
 }
 h3 {
 	font-family: "Poppins", sans-serif;

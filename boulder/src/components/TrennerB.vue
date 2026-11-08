@@ -16,6 +16,7 @@
 	background-position: center;
 	background-attachment: fixed;
 	filter: grayscale(100%);
+	margin-bottom: 20rem;
 }
 img {
 	filter: grayscale(100%);

@@ -8,6 +8,6 @@
 
 <style lang="css" scoped>
 .trenner {
-	height: 100px;
+	height: 250px;
 }
 </style>

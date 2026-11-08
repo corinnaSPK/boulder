@@ -47,6 +47,7 @@ const tricks = [
 
 	width: 80%;
 	padding-block: 15rem;
+	margin-block: 20rem;
 }
 h2 {
 	font-family: "Poppins", sans-serif;

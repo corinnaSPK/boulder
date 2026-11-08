@@ -6,8 +6,7 @@
 			<SingleDrill
 				v-for="drill in sourceData"
 				:key="drill.id"
-				:drill="drill"
-			></SingleDrill>
+				:drill="drill"></SingleDrill>
 		</div>
 	</div>
 </template>
@@ -33,6 +32,7 @@ onMounted(() => {
 	padding-block: 15rem;
 	max-width: 1200px;
 	margin-inline: auto;
+	margin-bottom: 20rem;
 }
 .drills__wrapper {
 	display: flex;

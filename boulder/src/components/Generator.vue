@@ -1,5 +1,5 @@
 <template>
-	<div class="generator mb-10rem">
+	<div class="generator mb-2x0rem">
 		<!-- <h2 class="fs-head-2 mb-3rem">The Generator</h2> -->
 		<!-- <div class="left"></div> -->
 		<div class="intro__content">
@@ -62,6 +62,7 @@ const generateDrill = () => {
 	text-align: center;
 	padding-top: 0;
 	padding-inline: 2rem;
+	margin-bottom: 20rem;
 }
 h2 {
 	/* text-transform: uppercase; */
@@ -92,6 +93,11 @@ h2::after {
 }
 .result__wrapper {
 	margin: 3rem;
+	border-radius: 15px;
+	padding: 3rem;
+	justify-self: center;
+
+	box-shadow: 10px 10px 20px -5px var(--c-black);
 }
 
 .result__wrapper p {
@@ -120,7 +126,7 @@ button {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-family: monospace;
-	margin-block: 5rem;
+	margin-block: 10rem;
 	transition: all 0.3s ease;
 	width: 70%;
 	font-weight: bolder;
