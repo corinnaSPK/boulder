@@ -12,13 +12,14 @@ const { drill } = defineProps(["drill"]);
 <style lang="css" scoped>
 .drill {
 	/* border-left: 1px solid var(--c-accent-secondary); */
-	border: 1px solid var(--c-accent-secondary);
-	border: 1px solid var(--c-black);
-	/* border-radius: 15px; */
+	/* border: 1px solid var(--c-accent-secondary); */
+	/* border: 1px solid var(--c-black); */
+	border-radius: 15px;
 	padding: 3rem;
 	justify-self: center;
 
 	width: 300px;
+	box-shadow: 10px 10px 20px -5px var(--c-black);
 }
 h3 {
 	font-family: "Poppins", sans-serif;

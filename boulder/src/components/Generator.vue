@@ -109,11 +109,12 @@ button {
 	); */
 	/* border: 1px solid rgba(255, 255, 255, 0.449); */
 	background-color: var(--c-accent-secondary);
-	border: 1px solid var(--c-black-mute);
-	color: var(--c-white);
+	/* border: 1px solid var(--c-black-mute); */
 	color: var(--c-white-soft);
 	padding: 1em 2em;
-	/* border-radius: 100px; */
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px -5px var(--c-black);
+
 	font-size: 2rem;
 	transition: all 3ms ease;
 	text-transform: uppercase;
